@@ -1,0 +1,30 @@
+.navbar li a{
+    margin-left: 15px;
+    font-size: 18px;
+    transition: 0.3s all;
+}
+
+.navbar {
+    font-size: 90px;
+}
+
+/* Active link */
+.card-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 200px;
+    text-align: center;
+    margin: 10px;
+}
+
+.card img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 10px auto;
+}
